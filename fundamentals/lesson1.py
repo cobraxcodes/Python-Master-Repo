@@ -27,7 +27,7 @@ print(f"My name is {name}, I am {age} years old")
 
 #Adult Checks
 def adultCheck(num):
-    if(num <= 18):
+    if(num <18):
         print("You are a minor")
     else:
         print("You are an adult")
@@ -40,7 +40,7 @@ print(x * y)
 
 # Truthiness Test
 items = []
-if not items:
+if items:
     print("not empty")
 else:
     print("empty")
