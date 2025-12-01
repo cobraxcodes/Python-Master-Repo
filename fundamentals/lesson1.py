@@ -1,7 +1,7 @@
 #Variables
 
 x = True
-if x == True:
+if x:
     print("Hello World")
 
 a = False
