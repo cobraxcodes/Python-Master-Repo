@@ -33,3 +33,10 @@ print(k)
 #find - looks for specific character and returns the index of character
 l  = a.find("h")
 print(l)
+
+
+#--------SLICING---------
+z = "Hello World"
+print(z[:4]) # : <-- signifies start , 4 <--- ends before the 4th character
+print(z[5:]) # starts from 5th character through end of string
+print(z[-7:-3]) 
