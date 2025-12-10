@@ -54,3 +54,38 @@ while count >= 1:
 # (reverse countdown)
 #------------------------------------------------------#
 
+# SETS
+## create a set and loop through to elemets and check if "apples" is in set
+fruits = {"apples", "oranges", "kiwis", "bananas"}
+print(fruits)
+if "apples" in fruits:
+    print("yes")
+else:
+    print("no")
+##create a set from list
+nums = [1, 2, 2, 3, 4, 4, 4, 5]
+set_nums = set(nums)
+print(set_nums)
+
+##add two elements in nums set
+new_nums = (6,7)
+set_nums.update(new_nums)
+print(set_nums)
+set_nums.remove(7)
+print(set_nums)
+
+#set operations
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
+##union 
+c = (a | b)
+print(c)
+##intersection
+d = (a & b)
+print(d)
+##difference
+e = (a - b)
+print(e)
+## symmetric difference
+f = (a ^ b)
+print(f)

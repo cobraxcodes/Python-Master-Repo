@@ -4,7 +4,7 @@ print(my_set)
 
 #empty sets are this iAmEmpty=sets()
 
-#adding items into the set
+#adding items into the set -- use update() for multiple elements 
 my_set.add(4)
 print(my_set)
 
