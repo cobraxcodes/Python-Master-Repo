@@ -89,3 +89,35 @@ print(e)
 ## symmetric difference
 f = (a ^ b)
 print(f)
+
+#-------- LOOPS -----
+## print all numbers from 10 to 0 backwards
+for x in range (10,-1, -1):
+    print(x)
+
+## loop through both index and value
+colors = ["red", "blue", "green"]
+for x, y in enumerate(colors):
+    print(x,y)
+
+## remove values less than 50 from list
+nums = [10, 80, 22, 100, 65, 30]
+for x in nums[:]:
+    if x < 50:
+        nums.remove(x)
+print (nums)
+
+## loop throught two items at the same time
+ids = [101, 102, 103]
+names = ["alex", "sam", "taylor"]
+
+for x,y in zip(ids,names):
+    print(x,y)
+
+## flatten nested list
+data = [[4,5], [10,11,12]]
+flat_list = []
+for x in data:
+    for y in x:
+        flat_list.append(y)
+print(flat_list)
