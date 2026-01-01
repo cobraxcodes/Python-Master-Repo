@@ -25,4 +25,4 @@ print(stdev(ages))
 
 import math #importing math module
 print(math.pi)
-print(math.ceil(8.5))
+print(math.ceil(8.2))
