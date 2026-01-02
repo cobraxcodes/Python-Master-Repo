@@ -16,3 +16,7 @@ list_of_hexa_colors(3)
 sample.list_of_rgb_colors(3)
 
 sample.generate_colors()
+
+sample.shuffle_list([1, 2, 3, 4, 5])
+
+sample.set_to_list()

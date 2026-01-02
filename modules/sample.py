@@ -56,3 +56,15 @@ def generate_colors(): # returns a hexa or rgb values in x amount dependent on u
         print(arr_rgb)
     else:
         print ("Invalid response")
+    
+
+## LEVEL 3
+def shuffle_list(arr): #randomly shuffling a list using random.sample with the same length as original list
+    shuffled = random.sample(arr, len(arr))
+    print(shuffled)
+
+def set_to_list():
+   nums_arr = [1,2,3,4,5,6,7,8,9]
+   random_num = random.sample(nums_arr, 7)
+   print(random_num)
+
