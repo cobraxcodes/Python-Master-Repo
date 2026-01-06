@@ -34,3 +34,4 @@ names = [[('Asabeneh', 'Yetayeh')], [('David', 'Smith')], [('Donald', 'Trump')],
 # ['Asabeneh Yetaeyeh', 'David Smith', 'Donald Trump', 'Bill Gates'
 names_concat = ' ,'.join(" ".join(lst) for lst in names for lst in lst)
 print(names_concat)
+
