@@ -40,6 +40,9 @@ def char_count(x):
 char_count_filter = list(filter(char_count, countries_filter))
 print(char_count_filter)
 
+idio_filter_countries = [x for x in countries_filter if len(x) == 7]
+print(idio_filter_countries)
+
 # Use filter to filter out countries having exactly six characters.
 def filter_char(x):
     if len(x) == 6:
@@ -47,3 +50,6 @@ def filter_char(x):
     return True
 char_count = list(filter(filter_char, countries_filter))
 print(char_count)
+
+idio_char_count = [country for country in countries_filter if not len(country) == 6]
+print(idio_char_count)
